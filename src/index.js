@@ -6,7 +6,7 @@ window.onload = () => {
         response_type: "token",
         redirect_uri: "https://oauth-master-class-three.vercel.app/token.html",
       },
-      "https://oauth-master-class-three.vercel.app/",
+      "https://oauth-master-class-three.vercel.app/"
       )
        .then(({ handler }) => handler())
       .then(async (data) => {
@@ -17,3 +17,4 @@ window.onload = () => {
         console.log(result, data);
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
+};
