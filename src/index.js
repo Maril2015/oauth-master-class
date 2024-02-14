@@ -31,3 +31,6 @@ window.onload = () => {
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
 };
+  document.getElementById("button").onclick= () => {
+    };
+  };
