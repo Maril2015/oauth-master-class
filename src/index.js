@@ -4,7 +4,6 @@ const authorize = ({
   })=> {
   const avatarHtml =`<div class="avatar" style="background-image:url("https://avatars.mds.yandex.net/get-yapic/${defaultAvatarId}/islands-middle")"></div>`;
   const nameHtml=`<div class="name">${displayName}</div>`;
-  
   document.getElementById("auth").innerHtml=`${avatarHtml}${nameHtml}`;
    };
 const fetchYandexData = (token) =>
@@ -29,6 +28,4 @@ window.onload = () => {
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
 };
-  document.getElementById("suggest").onclick= () => {
-    };
   };
