@@ -12,7 +12,7 @@ const fetchYandexData = (token) =>
     (res)=>res.json()
       );
 window.onload = () => {
-  document.getElementById("button").onclick = () => {
+  document.getElementById("suggest").onclick = () => {
  YaAuthSuggest.init(
       {
         client_id: "7774ada10177476e830fb57e417784bf",
